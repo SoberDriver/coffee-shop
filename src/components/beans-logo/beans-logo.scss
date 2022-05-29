@@ -1,0 +1,13 @@
+@import '../styles/variables.scss';
+
+.beans-logo {
+@include flex-center;
+  margin-bottom: 20px;
+}
+.line {
+  height: 0px;
+  width: 60px;
+  border: 1px solid black;
+  margin-right: 40px;
+  margin-left: 40px;
+}

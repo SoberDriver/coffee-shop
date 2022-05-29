@@ -1,0 +1,5 @@
+$font-family: 'Merienda', cursive;
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}

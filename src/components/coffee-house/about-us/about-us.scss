@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+.about-us {
+  width: 590px;
+  margin: 80px auto;
+  @include flex-center;
+  flex-direction: column;
+
+}
+.description {
+  font-family: $font-family;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 0;
+  margin-left: 0;
+}
+h2 {
+  font-family: $font-family;
+
+}

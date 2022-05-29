@@ -1,0 +1,14 @@
+@import '../styles/variables.scss';
+
+.nav-bar {
+  margin: 0 auto 0 auto;
+  height: 100px;
+  @include flex-center;
+}
+p {
+  font-size: 12px;
+  font-family: $font-family;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+}
