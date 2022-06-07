@@ -1,0 +1,25 @@
+@import '../styles/variables.scss';
+
+.about-description {
+  @include flex-center;
+  justify-content: center;
+  gap: 70px;
+  height: 485px;
+  margin-bottom: 60px;
+}
+.about-description-text {
+  @include flex-center;
+  width: 350px;
+  flex-direction: column;
+}
+.about-description:after {
+  content: '';
+  width: 240px;
+  border: 1px solid black;
+  position: absolute;
+  background-color: black;
+  margin-top: 485px;
+}
+img {
+  box-shadow: 4px 4px 8px #C4C4C4;
+}

@@ -1,0 +1,8 @@
+@import '../styles/variables.scss';
+
+.filter-wrapper {
+  @include flex-center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 65px;
+}

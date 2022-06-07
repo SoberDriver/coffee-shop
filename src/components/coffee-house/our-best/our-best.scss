@@ -1,6 +1,15 @@
+@import '../../styles/variables.scss';
+
 .our-best {
   background: url('../../../../public/images/our-best-bg.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 500px;
+  width: 100%;
+  @include flex-center;
+  flex-direction: column;
+  justify-content: center
+}
+.best-items {
+  @include flex-center;
 }
