@@ -8,9 +8,15 @@ import './coffee-house.scss';
 
 class CoffeeHouse extends Component {
   render() {
+    const bgImage = './images/hero-bg.png';
+    const isHero = true;
+    const height = '640px';
     return (
       <div className="coffee-house">
-        <Header/>
+        <Header 
+          isHero={isHero} 
+          bgImage={bgImage}
+          height={height}/>
         <AboutUs/>
         <OurBest/>
         <Footer/>

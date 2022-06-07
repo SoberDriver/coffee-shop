@@ -6,10 +6,11 @@ import './about-us.scss';
 
 class AboutUs extends Component {
   render() {
+    const beansLogoColor = 'black';
     return (
       <div className="about-us">
         <h2>About us</h2>
-        <BeansLogo/>
+        <BeansLogo color={beansLogoColor}/>
         <p className='description'>
           Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
           Afraid at highly months do things on at. Situation recommend objection do intention

@@ -1,0 +1,33 @@
+@import '../styles/variables.scss';
+
+.coffee-item {
+  width: 220px;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+  margin: 30px;
+  @include flex-center;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  &:hover{
+    cursor: pointer;
+  }
+}
+.name, .country {
+  font-size: 14px;
+}
+.price {
+  font-size: 14px;
+  font-weight: 700;
+}
+.image {
+  @include flex-center;
+  padding: 20px;
+  padding-bottom: 0;
+  justify-content: space-around;
+}
+.item-description {
+  text-align: end;
+  padding: 0 20px;
+}
